@@ -411,24 +411,22 @@ class _PollsState extends State<Polls> {
               borderRadius: BorderRadius.circular(20),
               color: widget.backgroundColor,
             ),
-            child: OutlinedButton(
+            child: OutlineButton(
               onPressed: () {
                 setState(() {
                   userPollChoice = 1;
                 });
                 widget.onVote!(userPollChoice);
               },
-              style: OutlinedButton.styleFrom(
-                backgroundColor: Colors.green,
-                padding: EdgeInsets.all(5.0),
-                side: BorderSide(
-                  color: widget.outlineColor,
-                ),
-                shape: RoundedRectangleBorder(
-                  borderRadius: new BorderRadius.circular(20.0),
-                ),
-              ),
+              color: Colors.green,
+              padding: EdgeInsets.all(5.0),
               child: Text(this.c1, style: widget.pollStyle),
+              borderSide: BorderSide(
+                color: widget.outlineColor,
+              ),
+              shape: RoundedRectangleBorder(
+                borderRadius: new BorderRadius.circular(20.0),
+              ),
             ),
           ),
         ),
@@ -444,24 +442,23 @@ class _PollsState extends State<Polls> {
               borderRadius: BorderRadius.circular(20),
               color: widget.backgroundColor,
             ),
-            child: OutlinedButton(
+            child: OutlineButton(
               onPressed: () {
                 setState(() {
                   userPollChoice = 2;
                 });
                 widget.onVote!(userPollChoice);
               },
-              style: OutlinedButton.styleFrom(
-                backgroundColor: Colors.green,
-                padding: EdgeInsets.all(5.0),
-                side: BorderSide(
-                  color: widget.outlineColor,
-                ),
-                shape: RoundedRectangleBorder(
-                  borderRadius: new BorderRadius.circular(20.0),
-                ),
-              ),
+              color: Colors.green,
+              padding: EdgeInsets.all(5.0),
               child: Text(this.c2, style: widget.pollStyle),
+              borderSide: BorderSide(
+                color: widget.outlineColor,
+              ),
+              shape: RoundedRectangleBorder(
+                borderRadius: new BorderRadius.circular(20.0),
+//                              side: BorderSide(color: Colors.red)
+              ),
             ),
           ),
         ),
@@ -478,24 +475,23 @@ class _PollsState extends State<Polls> {
                     borderRadius: BorderRadius.circular(20),
                     color: widget.backgroundColor,
                   ),
-                  child: OutlinedButton(
+                  child: OutlineButton(
                     onPressed: () {
                       setState(() {
                         userPollChoice = 3;
                       });
                       widget.onVote!(userPollChoice);
                     },
-                    style: OutlinedButton.styleFrom(
-                      backgroundColor: Colors.green,
-                      padding: EdgeInsets.all(5.0),
-                      side: BorderSide(
-                        color: widget.outlineColor,
-                      ),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: new BorderRadius.circular(20.0),
-                      ),
-                    ),
+                    color: Colors.green,
+                    padding: EdgeInsets.all(5.0),
                     child: Text(this.c3 ?? '', style: widget.pollStyle),
+                    borderSide: BorderSide(
+                      color: widget.outlineColor,
+                    ),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: new BorderRadius.circular(20.0),
+//                              side: BorderSide(color: Colors.red)
+                    ),
                   ),
                 ),
               )
@@ -513,24 +509,23 @@ class _PollsState extends State<Polls> {
                     borderRadius: BorderRadius.circular(20),
                     color: widget.backgroundColor,
                   ),
-                  child: OutlinedButton(
+                  child: OutlineButton(
                     onPressed: () {
                       setState(() {
                         userPollChoice = 4;
                       });
                       widget.onVote!(userPollChoice);
                     },
-                    style: OutlinedButton.styleFrom(
-                      backgroundColor: Colors.green,
-                      padding: EdgeInsets.all(5.0),
-                      side: BorderSide(
-                        color: widget.outlineColor,
-                      ),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: new BorderRadius.circular(20.0),
-                      ),
-                    ),
+                    color: Colors.green,
+                    padding: EdgeInsets.all(5.0),
                     child: Text(this.c4 ?? '', style: widget.pollStyle),
+                    borderSide: BorderSide(
+                      color: widget.outlineColor,
+                    ),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: new BorderRadius.circular(20.0),
+//                              side: BorderSide(color: Colors.red)
+                    ),
                   ),
                 ),
               )
@@ -548,24 +543,23 @@ class _PollsState extends State<Polls> {
                     borderRadius: BorderRadius.circular(20),
                     color: widget.backgroundColor,
                   ),
-                  child: OutlinedButton(
+                  child: OutlineButton(
                     onPressed: () {
                       setState(() {
                         userPollChoice = 5;
                       });
                       widget.onVote!(userPollChoice);
                     },
-                    style: OutlinedButton.styleFrom(
-                      backgroundColor: Colors.green,
-                      padding: EdgeInsets.all(5.0),
-                      side: BorderSide(
-                        color: widget.outlineColor,
-                      ),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: new BorderRadius.circular(20.0),
-                      ),
-                    ),
+                    color: Colors.green,
+                    padding: EdgeInsets.all(5.0),
                     child: Text(this.c5 ?? '', style: widget.pollStyle),
+                    borderSide: BorderSide(
+                      color: widget.outlineColor,
+                    ),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: new BorderRadius.circular(20.0),
+//                              side: BorderSide(color: Colors.red)
+                    ),
                   ),
                 ),
               )
@@ -583,24 +577,23 @@ class _PollsState extends State<Polls> {
                     borderRadius: BorderRadius.circular(20),
                     color: widget.backgroundColor,
                   ),
-                  child: OutlinedButton(
+                  child: OutlineButton(
                     onPressed: () {
                       setState(() {
                         userPollChoice = 6;
                       });
                       widget.onVote!(userPollChoice);
                     },
-                    style: OutlinedButton.styleFrom(
-                      backgroundColor: Colors.green,
-                      padding: EdgeInsets.all(5.0),
-                      side: BorderSide(
-                        color: widget.outlineColor,
-                      ),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: new BorderRadius.circular(20.0),
-                      ),
-                    ),
+                    color: Colors.green,
+                    padding: EdgeInsets.all(5.0),
                     child: Text(this.c6 ?? '', style: widget.pollStyle),
+                    borderSide: BorderSide(
+                      color: widget.outlineColor,
+                    ),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: new BorderRadius.circular(20.0),
+//                              side: BorderSide(color: Colors.red)
+                    ),
                   ),
                 ),
               )
@@ -618,24 +611,23 @@ class _PollsState extends State<Polls> {
                     borderRadius: BorderRadius.circular(20),
                     color: widget.backgroundColor,
                   ),
-                  child: OutlinedButton(
+                  child: OutlineButton(
                     onPressed: () {
                       setState(() {
                         userPollChoice = 7;
                       });
                       widget.onVote!(userPollChoice);
                     },
-                    style: OutlinedButton.styleFrom(
-                      backgroundColor: Colors.green,
-                      padding: EdgeInsets.all(5.0),
-                      side: BorderSide(
-                        color: widget.outlineColor,
-                      ),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: new BorderRadius.circular(20.0),
-                      ),
-                    ),
+                    color: Colors.green,
+                    padding: EdgeInsets.all(5.0),
                     child: Text(this.c7 ?? '', style: widget.pollStyle),
+                    borderSide: BorderSide(
+                      color: widget.outlineColor,
+                    ),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: new BorderRadius.circular(20.0),
+//                              side: BorderSide(color: Colors.red)
+                    ),
                   ),
                 ),
               )
@@ -653,24 +645,23 @@ class _PollsState extends State<Polls> {
                     borderRadius: BorderRadius.circular(20),
                     color: widget.backgroundColor,
                   ),
-                  child: OutlinedButton(
+                  child: OutlineButton(
                     onPressed: () {
                       setState(() {
                         userPollChoice = 8;
                       });
                       widget.onVote!(userPollChoice);
                     },
-                    style: OutlinedButton.styleFrom(
-                      backgroundColor: Colors.green,
-                      padding: EdgeInsets.all(5.0),
-                      side: BorderSide(
-                        color: widget.outlineColor,
-                      ),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: new BorderRadius.circular(20.0),
-                      ),
-                    ),
+                    color: Colors.green,
+                    padding: EdgeInsets.all(5.0),
                     child: Text(this.c8 ?? '', style: widget.pollStyle),
+                    borderSide: BorderSide(
+                      color: widget.outlineColor,
+                    ),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: new BorderRadius.circular(20.0),
+//                              side: BorderSide(color: Colors.red)
+                    ),
                   ),
                 ),
               )
